@@ -1,0 +1,60 @@
+Entidades:
+
+Livro
+   - título
+   - sinopse ou descrição
+
+Editora
+   - nome
+
+Autor
+   - nome
+   - sexo
+   - data de nascimento
+   - data de falecimento
+   - biografia (breve)
+   - gêneros literários
+
+Gênero
+   - nome
+
+Idioma
+   - idioma
+
+Tipo de capa
+   - tipo
+
+Edição
+   - avaliação
+   - data de publicação
+   - dimensões
+   - número de páginas
+   - tipo de capa
+   - preço
+   - quantidade em estoque
+
+--------------------
+
+relacionamentos
+
+Livro possui um gênero (1 para n)
+
+Edição foi redigida em um idioma (1 para n)
+
+Livro tem uma Edição produzido por uma Editora (n para n)
+
+Autor publica Livro (1 para n)
+
+Autor escreve em alguns gêneros (1 para n)
+
+Autor publica em Editora (1 para n)
+
+Edição tem um tipo de capa (n para 1)
+
+-------------
+
+
+
+
+
+
